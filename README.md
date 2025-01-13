@@ -1,24 +1,18 @@
-# README
+# Micro-reddit (WIP) V.0.0.1
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Small Rails project to practise creating Models and associations between them in Rails.
 
-Things you may want to cover:
+No front end yet! (You can test the associations in the rails console)
 
-* Ruby version
+## Roadmap:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Simple front end:
+  - Allow users to sign up and start posting!
+  - Show a simple feed (most recent posts first).
+- Comment threads:
+  - Ability to comment on a comment...
+- "Karma":
+  - Allows users to up-vote or down-vote Posts and Comments, contributing to a user's overall "Karma" score.
+- Feed filters:
+  - Add tags to Posts to help you find topics of interest.
+  - Posts can be sorted by up-votes, down-votes, trending, etc.
